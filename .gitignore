@@ -1,0 +1,28 @@
+# Answer keys — trainer-only, NEVER ship these to students
+**/answers.sql
+
+# Student work — don't commit solved files back into the course repo
+*_solved.xlsx
+*_solved.xlsm
+*_mysolution*
+~$*                 # Excel lock files
+*.tmp
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Keep the generated data committed (students clone and use it directly).
+# If you prefer a lean repo and want students to generate data themselves,
+# uncomment the lines below and tell them to run: python datasets/generate_data.py
+# datasets/*.csv
+# datasets/foodco.db
+# Day_*/**/*.csv
