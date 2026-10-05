@@ -1,0 +1,9 @@
+artifact,description,your_classification,which_analytics_type
+orders_sample.csv,Rows and columns of completed orders,,
+app_events.json,Nested JSON logged by the mobile app,,
+customer_reviews.txt,Free-text reviews typed by customers,,
+gps_pings.csv,Rider location pings during a delivery,,
+menu_photo.jpg,A photo of a restaurant menu board,,
+support_call.mp3,Audio recording of a support call,,
+payments.csv,Transaction records with status,,
+whatsapp_complaint.txt,A customer complaint pasted from chat,,
